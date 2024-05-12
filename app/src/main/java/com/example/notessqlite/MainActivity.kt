@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var db: NotesDatabaseHelper
     private lateinit var notesAdapter: NotesAdapter
 
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override  fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
